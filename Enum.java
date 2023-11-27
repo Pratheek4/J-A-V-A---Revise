@@ -18,7 +18,7 @@ enum Laptop{
     }
 
     public void setPrice(int price) { // To set the price
-        this.price = price;
+        this.price = price ;
     }
 
     
@@ -28,7 +28,13 @@ public class Enum {
     
     public static void main(String[] args) {
         
-        Laptop l = Laptop.Mackbook;
-        System.out.println(l);
+      //  Laptop[] l = Laptop.values(); // Laptop is a type not an object
+        //System.out.println(l);
+
+        // To print all the enums
+
+        for(Laptop m : Laptop.values()){
+                System.out.println(m +" : " +m.getPrice());
+        }
     }
 }
