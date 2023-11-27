@@ -30,7 +30,7 @@ public class Enum {
         
       //  Laptop[] l = Laptop.values(); // Laptop is a type not an object
         //System.out.println(l);
-
+            
         // To print all the enums
 
         for(Laptop m : Laptop.values()){
